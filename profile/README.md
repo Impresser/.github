@@ -19,8 +19,11 @@
 기존 세메스 시스템은 CPU 기반 압축 방식을 사용하여 처리 속도와 성능에 한계가 있었습니다.
 
 ### 목적
-GPU를 활용하여 **고속·고효율 이미지 압축**을 수행하는 Impresser 서비스를 개발하고,  
-기존 대비 압축 속도를 획기적으로 개선합니다.
+GPU를 활용하여 **고속·고효율 이미지 압축**을 수행하는 Impresser 서비스를 개발하고, 기존 대비 압축 속도를 획기적으로 개선합니다.
+<div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <img src="./image/성능향상(0).png" width="45%" alt="성능향상1"/>
+  <img src="./image/성능향상.png" width="45%" alt="성능향상2"/>
+</div>
 
 ### 핵심 대상
 제조 장비 소프트웨어 기업
@@ -36,6 +39,8 @@ GPU를 활용하여 **고속·고효율 이미지 압축**을 수행하는 Impre
 <br>
 
 ## 👨‍👩‍👧‍👦 팀원 소개
+
+### Backend
 <div align="center">
   <table style="border-collapse: collapse;">
     <tbody>
@@ -45,13 +50,13 @@ GPU를 활용하여 **고속·고효율 이미지 압축**을 수행하는 Impre
             <img src="./image/김나경.jpg" width="140px" height="160px" alt="김나경"/>
           </a><br>
           <b><sub>김나경 (Leader)</sub></b><br>
-          <sub><a href="#">@김나경</a></sub><br><br>
+          <sub><a href="https://github.com/iqveou6">@김나경</a></sub><br><br>
           <img src="https://img.shields.io/badge/Backend-0771A1?style=flat&logo=springboot&logoColor=white"/>
           <br><br>
           <div align="left">
             <small>
               <ul style="margin: 0; padding-left: 20px; line-height: 1.5;">
-                <li>잉크젯 설비 API</li>
+                <li>잉크젯 설비</li>
                 <li>libTIFF 기반 이미지 압축</li>
                 <li>이미지 압축 및 설비 대기열</li>
               </ul>
@@ -63,7 +68,7 @@ GPU를 활용하여 **고속·고효율 이미지 압축**을 수행하는 Impre
             <img src="./image/김환수.jpg" width="140px" height="160px" alt="김환수"/>
           </a><br>
           <b><sub>김환수</sub></b><br>
-          <sub><a href="#">@김환수</a></sub><br><br>
+          <sub><a href="https://github.com/KimHS17">@김환수</a></sub><br><br>
           <img src="https://img.shields.io/badge/Backend-0771A1?style=flat&logo=springboot&logoColor=white"/>
           <img src="https://img.shields.io/badge/Infra-FF9900?style=flat&logo=amazonaws&logoColor=white"/>
           <br><br>
@@ -82,13 +87,13 @@ GPU를 활용하여 **고속·고효율 이미지 압축**을 수행하는 Impre
             <img src="./image/이희산.webp" width="140px" height="160px" alt="이희산"/>
           </a><br>
           <b><sub>이희산</sub></b><br>
-          <sub><a href="#">@이희산</a></sub><br><br>
+          <sub><a href="https://github.com/Lee-heesan">@이희산</a></sub><br><br>
           <img src="https://img.shields.io/badge/Backend-0771A1?style=flat&logo=springboot&logoColor=white"/>
           <br><br>
           <div align="left">
             <small>
               <ul style="margin: 0; padding-left: 20px; line-height: 1.5;">
-                <li>대시보드, 압축 및 변환 내역 조회 API</li>
+                <li>대시보드 및 압축/변환 내역 조회</li>
                 <li>CUDA 기반 이미지 생성</li>
                 <li>S3 대용량 다중 이미지 업로드</li>
               </ul>
@@ -96,21 +101,30 @@ GPU를 활용하여 **고속·고효율 이미지 압축**을 수행하는 Impre
           </div>
         </td>
       </tr>
+    </tbody>
+  </table>
+</div>
+
+### Frontend
+<div align="center">
+  <table style="border-collapse: collapse;">
+    <tbody>
       <tr>
         <td align="center" style="border: none; padding: 15px; vertical-align: top; width: 180px;">
           <a href="#">
             <img src="./image/박지현.png" width="140px" height="160px" alt="박지현"/>
           </a><br>
           <b><sub>박지현</sub></b><br>
-          <sub><a href="#">@박지현</a></sub><br><br>
+          <sub><a href="https://github.com/gorjheous">@박지현</a></sub><br><br>
           <img src="https://img.shields.io/badge/Frontend-61DAFB?style=flat&logo=react&logoColor=white"/>
           <img src="https://img.shields.io/badge/Design-FCA311?style=flat&logo=figma&logoColor=white"/>
           <br><br>
           <div align="left">
             <small>
               <ul style="margin: 0; padding-left: 20px; line-height: 1.5;">
-                <li>생산 시뮬레이션</li>
-                <li>성능 비교</li>
+                <li>생산 시뮬레이션 구현</li>
+                <li>압축 성능 비교</li>
+                <li>로그인/이미지 압축 화면 디자인</li>
               </ul>
             </small>
           </div>
@@ -120,16 +134,16 @@ GPU를 활용하여 **고속·고효율 이미지 압축**을 수행하는 Impre
             <img src="./image/윤혜진.jpg" width="140px" height="160px" alt="윤혜진"/>
           </a><br>
           <b><sub>윤혜진</sub></b><br>
-          <sub><a href="#">@윤혜진</a></sub><br><br>
+          <sub><a href="https://github.com/g2pwls">@윤혜진</a></sub><br><br>
           <img src="https://img.shields.io/badge/Frontend-61DAFB?style=flat&logo=react&logoColor=white"/>
           <img src="https://img.shields.io/badge/Design-FCA311?style=flat&logo=figma&logoColor=white"/>
           <br><br>
           <div align="left">
             <small>
               <ul style="margin: 0; padding-left: 20px; line-height: 1.5;">
-                <li>로그인</li>
+                <li>로그인 API 연결</li>
                 <li>대시보드</li>
-                <li>이미지 생성 및 압축</li>
+                <li>이미지 생성/이미지 압축</li>
               </ul>
             </small>
           </div>
@@ -139,6 +153,7 @@ GPU를 활용하여 **고속·고효율 이미지 압축**을 수행하는 Impre
     </tbody>
   </table>
 </div>
+
 
 <br>
 
@@ -220,25 +235,25 @@ GPU를 활용하여 **고속·고효율 이미지 압축**을 수행하는 Impre
       </tr>
       <tr> 
         <th style="text-align:center;">패턴 생성</th> 
-        <th style="text-align:center;">성능 비교</th> 
+        <th style="text-align:center;">이미지 압축</th> 
       </tr>
       <tr> 
       <td style="text-align:center;"><img width="100%" src="./gif/패턴생성.gif"/></td> 
-        <td style="text-align:center;"><img width="100%" src="./gif/성능비교.gif"/></td> 
-      </tr>
-      <tr> 
-        <th style="text-align:center;">설비 등록</th> 
-        <th style="text-align:center;">생성 시뮬레이션</th> 
-      </tr>
-      <tr> 
-        <td style="text-align:center;"><img width="100%" src="./gif/설비등록.gif"/></td> 
-        <td style="text-align:center;"><img width="100%" src="./gif/시뮬레이션.gif"/></td> 
-      </tr>
-      <tr> 
-        <th style="text-align:center;">패턴 압축</th> 
-      </tr>
-      <tr> 
         <td style="text-align:center;"><img width="100%" src="./gif/입측.gif"/></td> 
+      </tr>
+      <tr> 
+        <th style="text-align:center;">성능 비교</th> 
+        <th style="text-align:center;">설비 등록</th> 
+      </tr>
+      <tr> 
+        <td style="text-align:center;"><img width="100%" src="./gif/성능비교.gif"/></td> 
+        <td style="text-align:center;"><img width="100%" src="./gif/설비등록.gif"/></td> 
+      </tr>
+      <tr> 
+        <th style="text-align:center;">시뮬레이션</th> 
+      </tr>
+      <tr> 
+        <td style="text-align:center;"><img width="100%" src="./gif/시뮬레이션.gif"/></td> 
       </tr>
     </tbody>
   </table>
