@@ -2,7 +2,7 @@
   <img width="50%" src="./image/impresser logo.png" />
 </div>
 
-## impresser
+## IMPRESSER
 **GPU를 활용한 이미지 가속 압축 SW 개발**
 
 - Samsung Software AI Academy For Youth 13기 자율프로젝트
@@ -43,63 +43,73 @@ GPU 기반으로 고속·고효율 이미지 압축을 수행하는 Impresser �
 <br>
 
 ## 👨‍👩‍👧‍👦 팀원 소개
+
 <div align="center">
+
+### Frontend
 
 <table>
   <tr>
+    <!-- Frontend -->
     <td align="center" width="180" valign="top">
-      <img src="./image/박지현.png" alt="박지현" width="100" height="120" style="object-fit:cover; border-radius:50%"/><br/>
+      <img src="./image/박지현.png" alt="박지현" width="100" height="120" style="border-radius:50%; object-fit:cover;"/><br/>
       <b>박지현</b><br/>
-      <sub>Frontend / Design</sub><br/><br/>
-      <div style="height:90px;">
-        생산 시뮬레이션<br/>
-        성능 비교
-      </div>
+      <sub>Frontend / Design</sub>
+      <hr style="margin: 10px 0;">
+      <br>
+      생산 시뮬레이션<br/>
+      성능 비교
     </td>
     <td align="center" width="180" valign="top">
-      <img src="./image/윤혜진.jpg" alt="윤혜진" width="100" height="120" style="object-fit:cover; border-radius:50%"/><br/>
+      <img src="./image/윤혜진.jpg" alt="윤혜진" width="100" height="120" style="border-radius:50%; object-fit:cover;"/><br/>
       <b>윤혜진</b><br/>
-      <sub>Frontend / Design</sub><br/><br/>
-      <div style="height:90px;">
-        로그인<br/>
-        대시보드<br/>
-        이미지 압축<br/>
-        이미지 생성
-      </div>
-    </td>
-    <td align="center" width="180" valign="top">
-      <img src="./image/김환수.jpg" alt="김환수" width="100" height="120" style="object-fit:cover; border-radius:50%"/><br/>
-      <b>김환수</b><br/>
-      <sub>Infra / Backend</sub><br/><br/>
-      <div style="height:90px;">
-        CI/CD 파이프라인 구축<br/>
-        nvTIFF 기반 이미지 압축<br/>
-        로그인 / Security
-      </div>
-    </td>
-    <td align="center" width="180" valign="top">
-      <img src="./image/이희산.webp" alt="이희산" width="100" height="120" style="object-fit:cover; border-radius:50%"/><br/>
-      <b>이희산</b><br/>
-      <sub>Backend</sub><br/><br/>
-      <div style="height:90px;">
-        대시보드/압축 및 변환 내역 조회 API<br/>
-        CUDA 기반 이미지 생성<br/>
-        S3 대용량 다중 이미지 업로드<br/>
-      </div>
-    </td>
-    <td align="center" width="180" valign="top">
-      <img src="./image/김나경.jpg" alt="김나경" width="100" height="120" style="object-fit:cover; border-radius:50%"/><br/>
-      <b>김나경</b><br/>
-      <sub>Leader / Backend</sub><br/><br/>
-      <div style="height:90px;">
-        잉크젯 설비 API<br/>
-        libTIFF 기반 이미지 압축<br/>
-        이미지 압축, 설비 대기열(rabbitMQ) 및 알림(SSE)
-      </div>
+      <sub>Frontend / Design</sub>
+      <hr style="margin: 10px 0;">
+      로그인<br/>
+      대시보드<br/>
+      이미지 압축<br/>
+      이미지 생성
     </td>
   </tr>
 </table>
 
+</div>
+
+<div align="center">
+
+### backend
+
+<table>
+  <tr>
+    <td align="center" width="180" valign="top">
+      <img src="./image/김나경.jpg" alt="김나경" width="100" height="120" style="border-radius:50%; object-fit:cover;"/><br/>
+      <b>김나경</b><br/>
+      <sub>Leader / Backend</sub>
+      <hr style="margin: 10px 0;">
+      잉크젯 설비 API<br/>
+      libTIFF 기반 이미지 압축<br/>
+      이미지 압축, 설비 대기열 및 알림
+    </td>
+    <td align="center" width="180" valign="top">
+      <img src="./image/김환수.jpg" alt="김환수" width="100" height="120" style="border-radius:50%; object-fit:cover;"/><br/>
+      <b>김환수</b><br/>
+      <sub>Infra / Backend</sub>
+      <hr style="margin: 10px 0;">
+      CI/CD 파이프라인 구축<br/>
+      nvTIFF 기반 이미지 압축<br/>
+      로그인 / Security
+    </td>
+    <td align="center" width="180" valign="top">
+      <img src="./image/이희산.webp" alt="이희산" width="100" height="120" style="border-radius:50%; object-fit:cover;"/><br/>
+      <b>이희산</b><br/>
+      <sub>Backend</sub>
+      <hr style="margin: 10px 0;">
+      대시보드/압축 및 변환 내역 조회 API<br/>
+      CUDA 기반 이미지 생성<br/>
+      S3 대용량 다중 이미지 업로드
+    </td>
+  </tr>
+</table>
 </div>
 
 <br>
@@ -114,12 +124,12 @@ GPU 기반으로 고속·고효율 이미지 압축을 수행하는 Impresser �
 ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=SpringSecurity&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=Redis&logoColor=white)
+<br>
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white)
 ![rabbitMQ](https://img.shields.io/badge/rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 ![SSE](https://img.shields.io/badge/SSE-4479A1?style=for-the-badge)
 ![minio](https://img.shields.io/badge/minio-C72E49?style=for-the-badge&logo=minio&logoColor=white)
 
----
 
 ### Image
 ![nvtiff](https://img.shields.io/badge/NVtiff-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
@@ -129,7 +139,6 @@ GPU 기반으로 고속·고효율 이미지 압축을 수행하는 Impresser �
 ![RUNPOD](https://img.shields.io/badge/RUNPOD-5D29F0?style=for-the-badge&logo=RUNPOD&logoColor=white)
 ![nlohmann/json](https://img.shields.io/badge/nlohmann/json-black?style=for-the-badge&logo=nlohmann/json&logoColor=white)
 
----
 
 ### Frontend
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
@@ -137,7 +146,6 @@ GPU 기반으로 고속·고효율 이미지 압축을 수행하는 Impresser �
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=TailwindCSS&logoColor=white)
 ![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=Zustand&logoColor=white)
 
----
 
 ### DevOps / Infra
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white)
@@ -146,7 +154,6 @@ GPU 기반으로 고속·고효율 이미지 압축을 수행하는 Impresser �
 ![Docker hub](https://img.shields.io/badge/Docker_hub-2496ED?style=for-the-badge&logo=Docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=Nginx&logoColor=white)
 
----
 
 ### Tools
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=IntelliJIDEA&logoColor=white)
@@ -166,49 +173,462 @@ GPU 기반으로 고속·고효율 이미지 압축을 수행하는 Impresser �
          style="border-collapse: collapse; width: 100%; text-align: center; vertical-align: middle;">
     <thead> 
       <tr> 
-        <th>로그인</th> 
-        <th>대시보드</th> 
+        <th style="text-align:center;">로그인</th> 
+        <th style="text-align:center;">대시보드</th> 
       </tr>
     </thead>
     <tbody>
       <tr> 
-        <td><img width="100%" src="./gif/로그인.gif"/></td> 
-        <td><img width="100%" src="./gif/대시보드.gif"/></td> 
+        <td style="text-align:center;"><img width="100%" src="./gif/로그인.gif"/></td> 
+        <td style="text-align:center;"><img width="100%" src="./gif/대시보드.gif"/></td> 
       </tr>
       <tr> 
-        <th>패턴 생성</th> 
-        <th>패턴 생성 미리보기</th> 
+        <th style="text-align:center;">패턴 생성 미리보기</th> 
+        <th style="text-align:center;">csv 불러오기</th>
       </tr>
       <tr> 
-        <td><img width="100%" src="./gif/패턴생성.gif"/></td> 
-        <td><img width="100%" src="./gif/패턴생성- 미리보기.gif"/></td> 
+      <td style="text-align:center;"><img width="100%" src="./gif/패턴생성- 미리보기.gif"/></td> 
+      <td style="text-align:center;"><img width="100%" src="./gif/csv 불러오기.gif"/></td> 
       </tr>
       <tr> 
-        <th>csv 불러오기</th> 
-        <th>성능 비교</th> 
+        <th style="text-align:center;">패턴 생성</th> 
+        <th style="text-align:center;">성능 비교</th> 
       </tr>
       <tr> 
-        <td><img width="100%" src="./gif/csv 불러오기.gif"/></td> 
-        <td><img width="100%" src="./gif/성능비교.gif"/></td> 
+      <td style="text-align:center;"><img width="100%" src="./gif/패턴생성.gif"/></td> 
+        <td style="text-align:center;"><img width="100%" src="./gif/성능비교.gif"/></td> 
       </tr>
       <tr> 
-        <th>설비 등록</th> 
-        <th>생성 시뮬레이션</th> 
+        <th style="text-align:center;">설비 등록</th> 
+        <th style="text-align:center;">생성 시뮬레이션</th> 
       </tr>
       <tr> 
-        <td><img width="100%" src="./gif/설비등록.gif"/></td> 
-        <td><img width="100%" src="./gif/시뮬레이션.gif"/></td> 
+        <td style="text-align:center;"><img width="100%" src="./gif/설비등록.gif"/></td> 
+        <td style="text-align:center;"><img width="100%" src="./gif/시뮬레이션.gif"/></td> 
       </tr>
       <tr> 
-        <th>패턴 압축</th> 
+        <th style="text-align:center;">패턴 압축</th> 
       </tr>
       <tr> 
-        <td><img width="100%" src="./gif/입측.gif"/></td> 
+        <td style="text-align:center;"><img width="100%" src="./gif/입측.gif"/></td> 
       </tr>
     </tbody>
   </table>
 </div>
 
+<br>
+
+## 📂 프로젝트 구조
+
+<details>
+<summary>&nbsp FRONTEND</summary>
+
+```
+📂 frontend
+ ┣ 📂 public
+ ┃ ┣ 📂 fonts
+ ┃ ┣ 📂 images
+ ┃ ┃ ┣ 📂 facilities
+ ┃ ┃ ┣ 📂 logos
+ ┃ ┃ ┗ 📂 products
+ ┃ ┣ 📄 csvlogo.png
+ ┃ ┣ 📄 file.svg
+ ┃ ┣ 📄 globe.svg
+ ┃ ┣ 📄 next.svg
+ ┃ ┣ 📄 pattern-template.csv
+ ┃ ┣ 📄 vercel.svg
+ ┃ ┗ 📄 window.svg
+ ┣ 📂 src
+ ┃ ┣ 📂 app
+ ┃ ┃ ┣ 📂 dashboard
+ ┃ ┃ ┃ ┣ 📂 components
+ ┃ ┃ ┃ ┃ ┣ 📄 Compressionlist.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 PerformanceRanking.tsx
+ ┃ ┃ ┃ ┃ ┗ 📄 RecommendationEngine.tsx
+ ┃ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┃ ┣ 📂 imagecompressor
+ ┃ ┃ ┃ ┣ 📂 components
+ ┃ ┃ ┃ ┃ ┣ 📄 CompressionHistory.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 CompressionQueue.tsx
+ ┃ ┃ ┃ ┃ ┗ 📄 CompressionSettings.tsx
+ ┃ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┃ ┣ 📂 imagegenerator
+ ┃ ┃ ┃ ┣ 📂 components
+ ┃ ┃ ┃ ┃ ┣ 📄 PatternGenerator.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 PatternList.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 PatternPreview.tsx
+ ┃ ┃ ┃ ┃ ┗ 📄 PatternPreviewModal.tsx
+ ┃ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┃ ┣ 📂 login
+ ┃ ┃ ┃ ┣ 📂 components
+ ┃ ┃ ┃ ┃ ┣ 📄 LoginBackground.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 LoginBrandSection.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 logincontain.tsx
+ ┃ ┃ ┃ ┃ ┗ 📄 loginfindmodal.tsx
+ ┃ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┃ ┣ 📂 performance
+ ┃ ┃ ┃ ┣ 📂 components
+ ┃ ┃ ┃ ┃ ┣ 📄 AddFacilityModal.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 AlgorithmOptions.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 EditFacilityModal.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 FacilityDetailPanel.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 FacilityFileUpload.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 FacilityHistorySection.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 FacilityHistoryTable.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 FacilityInfoSection.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 FacilityQueueSection.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 FacilityQueueTable.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 FacilityStatisticsSummary.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 FacilityWorkUpload.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 IsometricMap.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 NewFacilityList.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 PerformanceResultComparisonTable.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 PerformanceResultSummary.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 PerformanceSimulator.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 PerformanceSimulatorCard.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 PerformanceSimulatorSettings.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 PerformanceSimulatorSlot.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 SelectedFacilitiesPanel.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 ThreeIsometricMap.tsx
+ ┃ ┃ ┃ ┃ ┗ 📄 TileMap.tsx
+ ┃ ┃ ┃ ┣ 📄 page.tsx
+ ┃ ┃ ┃ ┗ 📄 types.ts
+ ┃ ┃ ┣ 📂 simulation
+ ┃ ┃ ┃ ┣ 📂 components
+ ┃ ┃ ┃ ┃ ┣ 📄 BmpImportModal.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 ConfirmedGoalTable.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 InkConsumptionSummary.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 LayoutSlider.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 MotherGlassInfoList.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 MotherGlassLayoutPreview.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 MotherGlassSelector.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 OverallProductionSummary.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 PrintSimulationPlan.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 ProductCard.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 ProductList.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 ProductQuantityModal.tsx
+ ┃ ┃ ┃ ┃ ┣ 📄 ProductionGoalList.tsx
+ ┃ ┃ ┃ ┃ ┗ 📄 SelectedGoalList.tsx
+ ┃ ┃ ┃ ┣ 📂 data
+ ┃ ┃ ┃ ┣ 📂 utils
+ ┃ ┃ ┃ ┣ 📂 workers
+ ┃ ┃ ┃ ┣ 📄 page.tsx
+ ┃ ┃ ┃ ┗ 📄 types.ts
+ ┃ ┃ ┣ 📂 test
+ ┃ ┃ ┣ 📂 test001
+ ┃ ┃ ┣ 📂 test004
+ ┃ ┃ ┣ 📄 dashboard-layout-example.tsx
+ ┃ ┃ ┣ 📄 favicon.ico
+ ┃ ┃ ┣ 📄 globals.css
+ ┃ ┃ ┣ 📄 group-routes-example.md
+ ┃ ┃ ┣ 📄 layout.tsx
+ ┃ ┃ ┣ 📄 loading.tsx
+ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┣ 📂 components
+ ┃ ┃ ┣ 📂 auth
+ ┃ ┃ ┃ ┗ 📄 AuthGuard.tsx
+ ┃ ┃ ┣ 📂 layout
+ ┃ ┃ ┃ ┣ 📄 navbar.tsx
+ ┃ ┃ ┃ ┗ 📄 sidebar.tsx
+ ┃ ┃ ┣ 📂 ui
+ ┃ ┃ ┃ ┣ 📄 CommonButton.tsx
+ ┃ ┃ ┃ ┣ 📄 CommonCheckBox.tsx
+ ┃ ┃ ┃ ┣ 📄 CommonContainerBox.tsx
+ ┃ ┃ ┃ ┣ 📄 CommonDropdown.tsx
+ ┃ ┃ ┃ ┣ 📄 CommonInput01.tsx
+ ┃ ┃ ┃ ┣ 📄 CommonLoader.tsx
+ ┃ ┃ ┃ ┣ 📄 CommonModal.tsx
+ ┃ ┃ ┃ ┣ 📄 CommonPagination.tsx
+ ┃ ┃ ┃ ┣ 📄 CommonRadioButton.tsx
+ ┃ ┃ ┃ ┣ 📄 CommonTable.tsx
+ ┃ ┃ ┃ ┣ 📄 CommonTableFrame.tsx
+ ┃ ┃ ┃ ┣ 📄 CommonToast.tsx
+ ┃ ┃ ┃ ┣ 📄 FlatContainerBox.tsx
+ ┃ ┃ ┃ ┣ 📄 GlassButton01.tsx
+ ┃ ┃ ┃ ┗ 📄 GlassButton02.tsx
+ ┃ ┃ ┗ 📄 GlobalSSENotifications.tsx
+ ┃ ┣ 📂 contexts
+ ┃ ┃ ┗ 📄 SSEContext.tsx
+ ┃ ┣ 📂 service
+ ┃ ┃ ┣ 📄 auth.ts
+ ┃ ┃ ┣ 📄 dashboard.ts
+ ┃ ┃ ┣ 📄 globalSSEService.ts
+ ┃ ┃ ┣ 📄 imageCompressor.ts
+ ┃ ┃ ┣ 📄 imageGenerator.ts
+ ┃ ┃ ┣ 📄 imageUpload.ts
+ ┃ ┃ ┗ 📄 inkjet.ts
+ ┃ ┣ 📂 store
+ ┃ ┃ ┣ 📄 authStore.ts
+ ┃ ┃ ┣ 📄 imageCompressorStore.ts
+ ┃ ┃ ┣ 📄 imageGeneratorStore.ts
+ ┃ ┃ ┣ 📄 imageUploadStore.ts
+ ┃ ┃ ┣ 📄 performanceHistoryStore.ts
+ ┃ ┃ ┣ 📄 performanceRankingStore.ts
+ ┃ ┃ ┗ 📄 sidebarStore.ts
+ ┃ ┣ 📂 types
+ ┃ ┃ ┣ 📄 auth.ts
+ ┃ ┃ ┣ 📄 dashboard.ts
+ ┃ ┃ ┣ 📄 imageCompressor.ts
+ ┃ ┃ ┣ 📄 imageGenerator.ts
+ ┃ ┃ ┗ 📄 imageUpload.ts
+ ┃ ┗ 📂 utils
+ ┃   ┗ 📄 fetchWithAuth.ts
+ ┣ 📄 .prettierignore
+ ┣ 📄 .prettierrc
+ ┣ 📄 Dockerfile
+ ┣ 📄 eslint.config.mjs
+ ┣ 📄 next.config.ts
+ ┣ 📄 package.json
+ ┣ 📄 pnpm-lock.yaml
+ ┣ 📄 postcss.config.mjs
+ ┗ 📄 tsconfig.json
+```
+</details>
+<br>
+
+<details>
+<summary>&nbsp BACKEND</summary>
+```
+📂 backend
+ ┣ 📂 src/main/java/com/semes/impresser
+ ┃ ┣ 📂 auth
+ ┃ ┃ ┣ 📂 controller
+ ┃ ┃ ┃ ┗ 📄 AuthController.java
+ ┃ ┃ ┣ 📂 dto
+ ┃ ┃ ┃ ┣ 📂 request
+ ┃ ┃ ┃ ┃ ┗ 📄 LoginRequest.java
+ ┃ ┃ ┃ ┗ 📂 response
+ ┃ ┃ ┃ ┃ ┣ 📄 LoginResponse.java
+ ┃ ┃ ┃ ┃ ┗ 📄 ReissueTokenResponse.java
+ ┃ ┃ ┗ 📂 service
+ ┃ ┃ ┃ ┣ 📄 AuthService.java
+ ┃ ┃ ┃ ┗ 📄 AuthServiceImpl.java
+ ┃ ┣ 📂 common
+ ┃ ┃ ┣ 📂 client
+ ┃ ┃ ┃ ┣ 📂 dto
+ ┃ ┃ ┃ ┃ ┣ 📂 request
+ ┃ ┃ ┃ ┃ ┃ ┣ 📄 ConvertImageRequest.java
+ ┃ ┃ ┃ ┃ ┃ ┗ 📄 GenerateImageApiRequest.java
+ ┃ ┃ ┃ ┃ ┗ 📂 response
+ ┃ ┃ ┃ ┃ ┃ ┣ 📄 ConvertImageResponse.java
+ ┃ ┃ ┃ ┃ ┃ ┗ 📄 GenerateImageApiResponse.java
+ ┃ ┃ ┃ ┗ 📄 ExternalApiClient.java
+ ┃ ┃ ┣ 📂 config
+ ┃ ┃ ┃ ┣ 📄 AsyncConfig.java
+ ┃ ┃ ┃ ┣ 📄 CorsConfig.java
+ ┃ ┃ ┃ ┣ 📄 HttpClientConfig.java
+ ┃ ┃ ┃ ┣ 📄 QuerydslConfig.java
+ ┃ ┃ ┃ ┣ 📄 RabbitMQConfig.java
+ ┃ ┃ ┃ ┣ 📄 S3Config.java
+ ┃ ┃ ┃ ┣ 📄 SecurityConfig.java
+ ┃ ┃ ┃ ┗ 📄 SwaggerConfig.java
+ ┃ ┃ ┣ 📂 controller
+ ┃ ┃ ┃ ┗ 📄 SseController.java
+ ┃ ┃ ┣ 📂 entity
+ ┃ ┃ ┃ ┣ 📄 BaseEntity.java
+ ┃ ┃ ┃ ┗ 📄 BaseTimeEntity.java
+ ┃ ┃ ┣ 📂 exception
+ ┃ ┃ ┃ ┣ 📄 BusinessException.java
+ ┃ ┃ ┃ ┣ 📄 ErrorCode.java
+ ┃ ┃ ┃ ┗ 📄 GlobalExceptionHandler.java
+ ┃ ┃ ┣ 📂 repository
+ ┃ ┃ ┃ ┗ 📄 EmitterRepository.java
+ ┃ ┃ ┣ 📂 response
+ ┃ ┃ ┃ ┣ 📄 BaseResponse.java
+ ┃ ┃ ┃ ┣ 📄 PageResponse.java
+ ┃ ┃ ┃ ┗ 📄 PaginationResponse.java
+ ┃ ┃ ┣ 📂 security
+ ┃ ┃ ┃ ┣ 📄 CustomAccessDeniedHandler.java
+ ┃ ┃ ┃ ┣ 📄 CustomAuthenticationEntryPoint.java
+ ┃ ┃ ┃ ┗ 📄 JwtAuthenticationFilter.java
+ ┃ ┃ ┣ 📂 service
+ ┃ ┃ ┃ ┗ 📄 SseService.java
+ ┃ ┃ ┗ 📂 util
+ ┃ ┃ ┃ ┣ 📄 CookieUtil.java
+ ┃ ┃ ┃ ┣ 📄 JwtUtil.java
+ ┃ ┃ ┃ ┣ 📄 S3Util.java
+ ┃ ┃ ┃ ┗ 📄 SecurityUtil.java
+ ┃ ┣ 📂 convertImage
+ ┃ ┃ ┣ 📂 controller
+ ┃ ┃ ┃ ┗ 📄 ConvertImageController.java
+ ┃ ┃ ┣ 📂 dto
+ ┃ ┃ ┃ ┣ 📂 request
+ ┃ ┃ ┃ ┃ ┣ 📄 CompleteConvertRequest.java
+ ┃ ┃ ┃ ┃ ┗ 📄 CreateConvertRequest.java
+ ┃ ┃ ┃ ┗ 📂 response
+ ┃ ┃ ┃ ┃ ┣ 📄 CompleteConvertResponse.java
+ ┃ ┃ ┃ ┃ ┣ 📄 CompressionTypeResponse.java
+ ┃ ┃ ┃ ┃ ┣ 📄 CompressionTypeVersionResponse.java
+ ┃ ┃ ┃ ┃ ┣ 📄 ConvertHistoryDetailResponse.java
+ ┃ ┃ ┃ ┃ ┣ 📄 ConvertHistoryItemResponse.java
+ ┃ ┃ ┃ ┃ ┗ 📄 CreateConvertResponse.java
+ ┃ ┃ ┣ 📂 entity
+ ┃ ┃ ┃ ┣ 📄 CompressionType.java
+ ┃ ┃ ┃ ┗ 📄 ConvertHistory.java
+ ┃ ┃ ┣ 📂 repository
+ ┃ ┃ ┃ ┣ 📄 CompressionTypeRepository.java
+ ┃ ┃ ┃ ┣ 📄 CompressionTypeRepositoryCustom.java
+ ┃ ┃ ┃ ┣ 📄 CompressionTypeRepositoryCustomImpl.java
+ ┃ ┃ ┃ ┣ 📄 ConvertHistoryRepository.java
+ ┃ ┃ ┃ ┣ 📄 ConvertHistoryRepositoryCustom.java
+ ┃ ┃ ┃ ┗ 📄 ConvertHistoryRepositoryCustomImpl.java
+ ┃ ┃ ┗ 📂 service
+ ┃ ┃ ┃ ┣ 📄 ConvertImageService.java
+ ┃ ┃ ┃ ┗ 📄 ConvertImageServiceImpl.java
+ ┃ ┣ 📂 dashboard
+ ┃ ┃ ┣ 📂 controller
+ ┃ ┃ ┃ ┗ 📄 DashboardController.java
+ ┃ ┃ ┣ 📂 dto/response
+ ┃ ┃ ┃ ┣ 📄 ConvertAvgSpeedListResponse.java
+ ┃ ┃ ┃ ┣ 📄 ConvertHistoryDetailResponse.java
+ ┃ ┃ ┃ ┣ 📄 ConvertHistoryListResponse.java
+ ┃ ┃ ┃ ┣ 📄 InkjetDailyUsageCompareResponse.java
+ ┃ ┃ ┃ ┣ 📄 InkjetDailyUsageResponse.java
+ ┃ ┃ ┃ ┣ 📄 InkjetDailyUsageStatResponse.java
+ ┃ ┃ ┃ ┗ 📄 InkjetWeeklyUsageResponse.java
+ ┃ ┃ ┗ 📂 service
+ ┃ ┃ ┃ ┣ 📄 DashboardService.java
+ ┃ ┃ ┃ ┗ 📄 DashboardServiceImpl.java
+ ┃ ┣ 📂 generateImage
+ ┃ ┃ ┣ 📂 controller
+ ┃ ┃ ┃ ┗ 📄 GenerationHistoryController.java
+ ┃ ┃ ┣ 📂 dto
+ ┃ ┃ ┃ ┣ 📂 request
+ ┃ ┃ ┃ ┃ ┣ 📄 CompleteBmpGernerationRequest.java
+ ┃ ┃ ┃ ┃ ┗ 📄 CreateBmpImageRequest.java
+ ┃ ┃ ┃ ┗ 📂 response
+ ┃ ┃ ┃ ┃ ┣ 📄 AllGenerationHistoryResponse.java
+ ┃ ┃ ┃ ┃ ┣ 📄 CreateBmpImageAsyncResponse.java
+ ┃ ┃ ┃ ┃ ┣ 📄 CreateBmpImageResponse.java
+ ┃ ┃ ┃ ┃ ┗ 📄 GenerationHistoryResponse.java
+ ┃ ┃ ┣ 📂 entity
+ ┃ ┃ ┃ ┣ 📄 GenerationHistory.java
+ ┃ ┃ ┃ ┗ 📄 GenerationStatus.java
+ ┃ ┃ ┣ 📂 repository
+ ┃ ┃ ┃ ┣ 📄 GenerationHistoryRepository.java
+ ┃ ┃ ┃ ┣ 📄 GenerationHistoryRepositoryCustom.java
+ ┃ ┃ ┃ ┗ 📄 GenerationHistoryRepositoryCustomImpl.java
+ ┃ ┃ ┗ 📂 service
+ ┃ ┃ ┃ ┣ 📄 GenerateImageTransactionalService.java
+ ┃ ┃ ┃ ┣ 📄 GenerateImageWorker.java
+ ┃ ┃ ┃ ┣ 📄 GenerationHistoryService.java
+ ┃ ┃ ┃ ┗ 📄 GenerationHistoryServiceImpl.java
+ ┃ ┣ 📂 inkjet
+ ┃ ┃ ┣ 📂 controller
+ ┃ ┃ ┃ ┣ 📄 InkjetController.java
+ ┃ ┃ ┃ ┗ 📄 JobHistoryController.java
+ ┃ ┃ ┣ 📂 dto
+ ┃ ┃ ┃ ┣ 📂 request
+ ┃ ┃ ┃ ┃ ┣ 📄 CreateInkjetRequest.java
+ ┃ ┃ ┃ ┃ ┣ 📄 CreateJobHistoryRequest.java
+ ┃ ┃ ┃ ┃ ┗ 📄 UpdateInkjetRequest.java
+ ┃ ┃ ┃ ┗ 📂 response
+ ┃ ┃ ┃ ┃ ┣ 📄 AllInkjetResponse.java
+ ┃ ┃ ┃ ┃ ┣ 📄 CreateJobHistoryResponse.java
+ ┃ ┃ ┃ ┃ ┣ 📄 InkjetResponse.java
+ ┃ ┃ ┃ ┃ ┣ 📄 JobHistoryListResponse.java
+ ┃ ┃ ┃ ┃ ┣ 📄 JobHistoryResponse.java
+ ┃ ┃ ┃ ┃ ┗ 📄 TotalJobResponse.java
+ ┃ ┃ ┣ 📂 entity
+ ┃ ┃ ┃ ┣ 📄 InkjetPrinter.java
+ ┃ ┃ ┃ ┣ 📄 InkjetPrinterSlot.java
+ ┃ ┃ ┃ ┣ 📄 JobHistory.java
+ ┃ ┃ ┃ ┣ 📄 PrinterStatus.java
+ ┃ ┃ ┃ ┣ 📄 ProcessStatus.java
+ ┃ ┃ ┃ ┗ 📄 SlotStatus.java
+ ┃ ┃ ┣ 📂 repository
+ ┃ ┃ ┃ ┣ 📄 InkjetRepository.java
+ ┃ ┃ ┃ ┣ 📄 InkjetRepositoryCustom.java
+ ┃ ┃ ┃ ┣ 📄 InkjetRepositoryCustomImpl.java
+ ┃ ┃ ┃ ┣ 📄 InkjetSlotRepository.java
+ ┃ ┃ ┃ ┣ 📄 InkjetSlotRepositoryCustom.java
+ ┃ ┃ ┃ ┣ 📄 InkjetSlotRepositoryCustomImpl.java
+ ┃ ┃ ┃ ┗ 📄 JobHistoryRepository.java
+ ┃ ┃ ┗ 📂 service
+ ┃ ┃ ┃ ┣ 📄 InkjetService.java
+ ┃ ┃ ┃ ┣ 📄 InkjetServiceImpl.java
+ ┃ ┃ ┃ ┣ 📄 InkjetSlotService.java
+ ┃ ┃ ┃ ┣ 📄 InkjetSlotServiceImpl.java
+ ┃ ┃ ┃ ┣ 📄 JobHistoryService.java
+ ┃ ┃ ┃ ┗ 📄 JobHistoryServiceImpl.java
+ ┃ ┣ 📂 queue
+ ┃ ┃ ┣ 📂 controller
+ ┃ ┃ ┃ ┗ 📄 QueueController.java
+ ┃ ┃ ┣ 📂 dto
+ ┃ ┃ ┃ ┣ 📄 CompressImageMessage.java
+ ┃ ┃ ┃ ┣ 📄 ConvertRequest.java
+ ┃ ┃ ┃ ┗ 📄 PrintRequest.java
+ ┃ ┃ ┣ 📂 producer
+ ┃ ┃ ┃ ┣ 📄 ImageMessageProducer.java
+ ┃ ┃ ┃ ┗ 📄 PrintMessageProducer.java
+ ┃ ┃ ┗ 📂 service
+ ┃ ┃ ┃ ┣ 📄 QueueService.java
+ ┃ ┃ ┃ ┗ 📄 QueueServiceImpl.java
+ ┃ ┣ 📂 s3
+ ┃ ┃ ┣ 📂 controller
+ ┃ ┃ ┃ ┗ 📄 S3Controller.java
+ ┃ ┃ ┣ 📂 dto
+ ┃ ┃ ┃ ┣ 📂 request
+ ┃ ┃ ┃ ┃ ┣ 📄 CompleteBatchRequest.java
+ ┃ ┃ ┃ ┃ ┣ 📄 CompleteMultipartRequest.java
+ ┃ ┃ ┃ ┃ ┣ 📄 CreateTiffUploadsRequest.java
+ ┃ ┃ ┃ ┃ ┣ 📄 InitBmpBatchRequest.java
+ ┃ ┃ ┃ ┃ ┣ 📄 PresignedUrlRequest.java
+ ┃ ┃ ┃ ┃ ┣ 📄 TiffUploadItemRequest.java
+ ┃ ┃ ┃ ┃ ┗ 📄 UrlsBatchRequest.java
+ ┃ ┃ ┃ ┗ 📂 response
+ ┃ ┃ ┃ ┃ ┣ 📄 CompleteBatchResultResponse.java
+ ┃ ┃ ┃ ┃ ┣ 📄 CreateTiffUploadResponse.java
+ ┃ ┃ ┃ ┃ ┣ 📄 InitBmpBatchResponse.java
+ ┃ ┃ ┃ ┃ ┣ 📄 InitMultipartUploadResponse.java
+ ┃ ┃ ┃ ┃ ┣ 📄 PresignedUrlListResponse.java
+ ┃ ┃ ┃ ┃ ┣ 📄 PresignedUrlResponse.java
+ ┃ ┃ ┃ ┃ ┣ 📄 UrlsBatchItemResponse.java
+ ┃ ┃ ┃ ┃ ┗ 📄 UrlsBatchResponse.java
+ ┃ ┃ ┗ 📂 service
+ ┃ ┃ ┃ ┣ 📄 FilePresignedService.java
+ ┃ ┃ ┃ ┗ 📄 FilePresignedServiceImpl.java
+ ┃ ┣ 📂 user
+ ┃ ┃ ┣ 📂 entity
+ ┃ ┃ ┃ ┣ 📄 User.java
+ ┃ ┃ ┃ ┗ 📄 UserRole.java
+ ┃ ┃ ┗ 📂 repository
+ ┃ ┃ ┃ ┗ 📄 UserRepository.java
+ ┃ ┗ 📄 ImpresserApplication.java
+```
+</details>
+<br>
+<details>
+<summary>&nbsp IMAGE</summary>
+```
+📂 image
+ ┣ 📂 include/converter
+ ┃ ┣ 📄 bmp_loader.hpp
+ ┃ ┣ 📄 convert.hpp
+ ┃ ┣ 📄 encoder.hpp
+ ┃ ┣ 📄 encoder_factory.hpp
+ ┃ ┣ 📄 generate_bmp.hpp
+ ┃ ┣ 📄 hmac.hpp
+ ┃ ┣ 📄 http_io.hpp
+ ┃ ┣ 📄 log.hpp
+ ┃ ┣ 📄 stopwatch.hpp
+ ┃ ┗ 📄 types.hpp
+ ┣ 📂 src
+ ┃ ┣ 📄 bmp_loader.cpp
+ ┃ ┣ 📄 convert_worker.cpp
+ ┃ ┣ 📄 encoder_factory.cpp
+ ┃ ┣ 📄 encoder_libtiff.cpp
+ ┃ ┣ 📄 encoder_nvtiff.cpp
+ ┃ ┣ 📄 generate_bmp.cu
+ ┃ ┣ 📄 http_io.cpp
+ ┃ ┗ 📄 main_server.cpp
+ ┣ 📂 vendor
+ ┃ ┣ 📄 httplib.h
+ ┃ ┗ 📄 json.hpp
+ ┣ 📄 CMakeLists.txt
+ ┗ 📄 Dockerfile
+```
+</details>
 <br>
 
 ## 📁 프로젝트 산출물
