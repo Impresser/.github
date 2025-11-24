@@ -3,14 +3,11 @@
 </div>
 
 ## IMPRESSER
-**GPU를 활용한 이미지 가속 압축 SW 개발**
+**GPU 기반 이미지 가속 압축 소프트웨어 개발**
 
-- Samsung Software AI Academy For Youth 13기 자율프로젝트
-
-- 세메스 기업연계 프로젝트
-
-- 프로젝트 기간 : 2025.10.06 ~ 2025.11.21
-
+- Samsung Software AI Academy For Youth 13기 자율 프로젝트
+- 세메스 기업 연계 프로젝트
+- 프로젝트 기간: 2025.10.06 ~ 2025.11.21
 - 참여 인원: 5명
 
 <br>
@@ -18,97 +15,129 @@
 ## 🚀 프로젝트 소개
 
 ### 배경
-디스플레이 패널 생산에는 RGB 패턴 이미지가 필요하며, 이를 위해 BMP 파일을 TIFF 형식으로 압축해 활용합니다. 하지만 기존 세메스 시스템은 CPU 기반 압축 방식으로 인해 처리 속도와 성능에 한계가 존재합니다
+디스플레이 패널 생산에는 RGB 패턴 이미지가 필요하며, 이를 위해 BMP 파일을 TIFF 형식으로 압축해 활용합니다.  
+기존 세메스 시스템은 CPU 기반 압축 방식을 사용하여 처리 속도와 성능에 한계가 있었습니다.
 
 ### 목적
-
-GPU 기반으로 고속·고효율 이미지 압축을 수행하는 Impresser 서비스를 개발하여 압축 속도를 개선합니다
+GPU를 활용하여 **고속·고효율 이미지 압축**을 수행하는 Impresser 서비스를 개발하고,  
+기존 대비 압축 속도를 획기적으로 개선합니다.
 
 ### 핵심 대상
-
 제조 장비 소프트웨어 기업
 
-### 특징 / 차별점
+### 특징 및 차별점
+- **GPU 가속 이미지 압축**
+- **CPU 대비 최대 4배 빠른 속도**
+- **비동기 압축 대기열(Queue)** 지원
+- **BMP 패턴 이미지 생성 기능 제공**
+- **압축 성능 비교 시뮬레이션 제공**
 
-- GPU 가속 이미지 압축 (CUDA 기반)
-
-- CPU 대비 4배 속도 향상
-
-- 비동기 압축 대기열 (Queue)
-
-- BMP 패턴 이미지 생성 기능 제
-
-- 압축 성능 비교 시뮬레이션 제공
 
 <br>
 
 ## 👨‍👩‍👧‍👦 팀원 소개
-
 <div align="center">
-
-### Frontend
-
-<table>
-  <tr>
-    <td align="center" width="180" valign="top">
-      <img src="./image/박지현.png" alt="박지현" width="100" height="120" style="border-radius:50%; object-fit:cover;"/><br/>
-      <b>박지현</b><br/>
-      <sub>Frontend / Design</sub>
-      <hr style="margin: 10px 0; border: 0; height: 1px; background-color: #ccc;">
-      <br>
-      생산 시뮬레이션<br/>
-      성능 비교
-    </td>
-    <td align="center" width="180" valign="top">
-      <img src="./image/윤혜진.jpg" alt="윤혜진" width="100" height="120" style="border-radius:50%; object-fit:cover;"/><br/>
-      <b>윤혜진</b><br/>
-      <sub>Frontend / Design</sub>
-      <hr style="margin: 10px 0; border: 0; height: 1px; background-color: #ccc;">
-      로그인<br/>
-      대시보드<br/>
-      이미지 압축<br/>
-      이미지 생성
-    </td>
-  </tr>
-</table>
-
-</div>
-
-<div align="center">
-
-### backend
-
-<table>
-  <tr>
-    <td align="center" width="180" valign="top">
-      <img src="./image/김나경.jpg" alt="김나경" width="100" height="120" style="border-radius:50%; object-fit:cover;"/><br/>
-      <b>김나경</b><br/>
-      <sub>Leader / Backend</sub>
-      <hr style="margin: 10px 0; border: 0; height: 1px; background-color: #ccc;">
-      잉크젯 설비 API<br/>
-      libTIFF 기반 이미지 압축<br/>
-      이미지 압축, 설비 대기열 및 알림
-    </td>
-    <td align="center" width="180" valign="top">
-      <img src="./image/김환수.jpg" alt="김환수" width="100" height="120" style="border-radius:50%; object-fit:cover;"/><br/>
-      <b>김환수</b><br/>
-      <sub>Infra / Backend</sub>
-      <hr style="margin: 10px 0; border: 0; height: 1px; background-color: #ccc;">
-      CI/CD 파이프라인 구축<br/>
-      nvTIFF 기반 이미지 압축<br/>
-      로그인 / Security
-    </td>
-    <td align="center" width="180" valign="top">
-      <img src="./image/이희산.webp" alt="이희산" width="100" height="120" style="border-radius:50%; object-fit:cover;"/><br/>
-      <b>이희산</b><br/>
-      <sub>Backend</sub>
-      <hr style="margin: 10px 0; border: 0; height: 1px; background-color: #ccc;">
-      대시보드/압축 및 변환 내역 조회 API<br/>
-      CUDA 기반 이미지 생성<br/>
-      S3 대용량 다중 이미지 업로드
-    </td>
-  </tr>
-</table>
+  <table style="border-collapse: collapse;">
+    <tbody>
+      <tr>
+        <td align="center" style="border: none; padding: 15px; vertical-align: top; width: 180px;">
+          <a href="#">
+            <img src="./image/김나경.jpg" width="140px" height="160px" alt="김나경"/>
+          </a><br>
+          <b><sub>김나경 (Leader)</sub></b><br>
+          <sub><a href="#">@김나경</a></sub><br><br>
+          <img src="https://img.shields.io/badge/Backend-0771A1?style=flat&logo=springboot&logoColor=white"/>
+          <br><br>
+          <div align="left">
+            <small>
+              <ul style="margin: 0; padding-left: 20px; line-height: 1.5;">
+                <li>잉크젯 설비 API</li>
+                <li>libTIFF 기반 이미지 압축</li>
+                <li>이미지 압축 및 설비 대기열</li>
+              </ul>
+            </small>
+          </div>
+        </td>
+        <td align="center" style="border: none; padding: 15px; vertical-align: top; width: 180px;">
+          <a href="#">
+            <img src="./image/김환수.jpg" width="140px" height="160px" alt="김환수"/>
+          </a><br>
+          <b><sub>김환수</sub></b><br>
+          <sub><a href="#">@김환수</a></sub><br><br>
+          <img src="https://img.shields.io/badge/Backend-0771A1?style=flat&logo=springboot&logoColor=white"/>
+          <img src="https://img.shields.io/badge/Infra-FF9900?style=flat&logo=amazonaws&logoColor=white"/>
+          <br><br>
+          <div align="left">
+            <small>
+              <ul style="margin: 0; padding-left: 20px; line-height: 1.5;">
+                <li>CI/CD 파이프라인 구축</li>
+                <li>nvTIFF 기반 이미지 압축</li>
+                <li>로그인/Security</li>
+              </ul>
+            </small>
+          </div>
+        </td>
+        <td align="center" style="border: none; padding: 15px; vertical-align: top; width: 180px;">
+          <a href="#">
+            <img src="./image/이희산.webp" width="140px" height="160px" alt="이희산"/>
+          </a><br>
+          <b><sub>이희산</sub></b><br>
+          <sub><a href="#">@이희산</a></sub><br><br>
+          <img src="https://img.shields.io/badge/Backend-0771A1?style=flat&logo=springboot&logoColor=white"/>
+          <br><br>
+          <div align="left">
+            <small>
+              <ul style="margin: 0; padding-left: 20px; line-height: 1.5;">
+                <li>대시보드, 압축 및 변환 내역 조회 API</li>
+                <li>CUDA 기반 이미지 생성</li>
+                <li>S3 대용량 다중 이미지 업로드</li>
+              </ul>
+            </small>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" style="border: none; padding: 15px; vertical-align: top; width: 180px;">
+          <a href="#">
+            <img src="./image/박지현.png" width="140px" height="160px" alt="박지현"/>
+          </a><br>
+          <b><sub>박지현</sub></b><br>
+          <sub><a href="#">@박지현</a></sub><br><br>
+          <img src="https://img.shields.io/badge/Frontend-61DAFB?style=flat&logo=react&logoColor=white"/>
+          <img src="https://img.shields.io/badge/Design-FCA311?style=flat&logo=figma&logoColor=white"/>
+          <br><br>
+          <div align="left">
+            <small>
+              <ul style="margin: 0; padding-left: 20px; line-height: 1.5;">
+                <li>생산 시뮬레이션</li>
+                <li>성능 비교</li>
+              </ul>
+            </small>
+          </div>
+        </td>
+        <td align="center" style="border: none; padding: 15px; vertical-align: top; width: 180px;">
+          <a href="#">
+            <img src="./image/윤혜진.jpg" width="140px" height="160px" alt="윤혜진"/>
+          </a><br>
+          <b><sub>윤혜진</sub></b><br>
+          <sub><a href="#">@윤혜진</a></sub><br><br>
+          <img src="https://img.shields.io/badge/Frontend-61DAFB?style=flat&logo=react&logoColor=white"/>
+          <img src="https://img.shields.io/badge/Design-FCA311?style=flat&logo=figma&logoColor=white"/>
+          <br><br>
+          <div align="left">
+            <small>
+              <ul style="margin: 0; padding-left: 20px; line-height: 1.5;">
+                <li>로그인</li>
+                <li>대시보드</li>
+                <li>이미지 생성 및 압축</li>
+              </ul>
+            </small>
+          </div>
+        </td>
+        <td style="border: none; padding: 15px; width: 180px;">&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 <br>
