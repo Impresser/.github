@@ -50,12 +50,11 @@ GPU 기반으로 고속·고효율 이미지 압축을 수행하는 Impresser �
 
 <table>
   <tr>
-    <!-- Frontend -->
     <td align="center" width="180" valign="top">
       <img src="./image/박지현.png" alt="박지현" width="100" height="120" style="border-radius:50%; object-fit:cover;"/><br/>
       <b>박지현</b><br/>
       <sub>Frontend / Design</sub>
-      <hr style="margin: 10px 0;">
+      <hr style="margin: 10px 0; border: 0; height: 1px; background-color: #ccc;">
       <br>
       생산 시뮬레이션<br/>
       성능 비교
@@ -64,7 +63,7 @@ GPU 기반으로 고속·고효율 이미지 압축을 수행하는 Impresser �
       <img src="./image/윤혜진.jpg" alt="윤혜진" width="100" height="120" style="border-radius:50%; object-fit:cover;"/><br/>
       <b>윤혜진</b><br/>
       <sub>Frontend / Design</sub>
-      <hr style="margin: 10px 0;">
+      <hr style="margin: 10px 0; border: 0; height: 1px; background-color: #ccc;">
       로그인<br/>
       대시보드<br/>
       이미지 압축<br/>
@@ -85,7 +84,7 @@ GPU 기반으로 고속·고효율 이미지 압축을 수행하는 Impresser �
       <img src="./image/김나경.jpg" alt="김나경" width="100" height="120" style="border-radius:50%; object-fit:cover;"/><br/>
       <b>김나경</b><br/>
       <sub>Leader / Backend</sub>
-      <hr style="margin: 10px 0;">
+      <hr style="margin: 10px 0; border: 0; height: 1px; background-color: #ccc;">
       잉크젯 설비 API<br/>
       libTIFF 기반 이미지 압축<br/>
       이미지 압축, 설비 대기열 및 알림
@@ -94,7 +93,7 @@ GPU 기반으로 고속·고효율 이미지 압축을 수행하는 Impresser �
       <img src="./image/김환수.jpg" alt="김환수" width="100" height="120" style="border-radius:50%; object-fit:cover;"/><br/>
       <b>김환수</b><br/>
       <sub>Infra / Backend</sub>
-      <hr style="margin: 10px 0;">
+      <hr style="margin: 10px 0; border: 0; height: 1px; background-color: #ccc;">
       CI/CD 파이프라인 구축<br/>
       nvTIFF 기반 이미지 압축<br/>
       로그인 / Security
@@ -103,7 +102,7 @@ GPU 기반으로 고속·고효율 이미지 압축을 수행하는 Impresser �
       <img src="./image/이희산.webp" alt="이희산" width="100" height="120" style="border-radius:50%; object-fit:cover;"/><br/>
       <b>이희산</b><br/>
       <sub>Backend</sub>
-      <hr style="margin: 10px 0;">
+      <hr style="margin: 10px 0; border: 0; height: 1px; background-color: #ccc;">
       대시보드/압축 및 변환 내역 조회 API<br/>
       CUDA 기반 이미지 생성<br/>
       S3 대용량 다중 이미지 업로드
@@ -388,6 +387,7 @@ GPU 기반으로 고속·고효율 이미지 압축을 수행하는 Impresser �
 
 <details>
 <summary>&nbsp BACKEND</summary>
+
 ```
 📂 backend
  ┣ 📂 src/main/java/com/semes/impresser
@@ -600,6 +600,7 @@ GPU 기반으로 고속·고효율 이미지 압축을 수행하는 Impresser �
 <br>
 <details>
 <summary>&nbsp IMAGE</summary>
+
 ```
 📂 image
  ┣ 📂 include/converter
