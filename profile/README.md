@@ -147,8 +147,6 @@ GPU를 활용하여 **고속·고효율 이미지 압축**을 수행하는 Impre
               </ul>
             </small>
           </div>
-        </td>
-        <td style="border: none; padding: 15px; width: 180px;">&nbsp;</td>
       </tr>
     </tbody>
   </table>
